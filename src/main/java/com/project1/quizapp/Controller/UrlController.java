@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/questions")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://student-quizapp.vercel.app/")
 public class UrlController {
     @Autowired
     private UrlService urlService;
